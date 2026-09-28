@@ -1,0 +1,39 @@
+{
+  "name": "univer-showcase",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "main": "src/index.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "engines": {
+    "node": "^20.19.0 || >=22.12.0"
+  },
+  "dependencies": {
+    "@univerjs-pro/sheets-shape": "^1.0.2",
+    "@univerjs-pro/sheets-shape-ui": "^1.0.2",
+    "@univerjs/core": "1.0.2",
+    "@univerjs/design": "1.0.2",
+    "@univerjs/docs": "1.0.2",
+    "@univerjs/docs-drawing": "^1.0.2",
+    "@univerjs/docs-ui": "1.0.2",
+    "@univerjs/drawing": "^1.0.2",
+    "@univerjs/drawing-ui": "^1.0.2",
+    "@univerjs/engine-formula": "1.0.2",
+    "@univerjs/engine-render": "1.0.2",
+    "@univerjs/sheets": "1.0.2",
+    "@univerjs/sheets-drawing": "^1.0.2",
+    "@univerjs/sheets-drawing-ui": "^1.0.2",
+    "@univerjs/sheets-formula": "1.0.2",
+    "@univerjs/sheets-formula-ui": "1.0.2",
+    "@univerjs/sheets-numfmt-ui": "1.0.2",
+    "@univerjs/sheets-ui": "1.0.2",
+    "@univerjs/ui": "1.0.2"
+  },
+  "devDependencies": {
+    "vite": "8.2.2"
+  }
+}
